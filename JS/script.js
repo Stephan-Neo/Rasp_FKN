@@ -198,7 +198,7 @@ $(document).ready(function () {
             })
             $('.right_arrow').click(function (){
                 number_week = $('.now_week__number').html();
-                if(number_week < 19){
+                if(number_week < 21){
                     $('.now_week__number').html(Number(number_week) + 1);
                     $(".chart__element .date").each(function(i){
                         let date = $(this).html().split('.');
@@ -391,7 +391,7 @@ $(document).ready(function () {
             })
             $('.right_arrow').click(function (){
                 number_week = $('.now_week__number').html();
-                if(number_week < 19){
+                if(number_week < 21){
                     $('.now_week__number').html(Number(number_week) + 1);
                     $(".chart__element .date").each(function(i){
                         let date = $(this).html().split('.');
