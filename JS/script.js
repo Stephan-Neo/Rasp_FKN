@@ -3,7 +3,7 @@
 const emoji_for_groups = new Map([
     ['Главная страница', ''],
 
-    ['СМБ-101-0-01', '🧙🏻‍♂️'],
+    ['MKБ-101-0-01', '🧙🏻‍♂️'],
     ['ССБ-101-0-01', '😭'],
     ['СБС-001-0-01', '🤡'],
     ['СБС-002-0-01', '💩'],
@@ -27,6 +27,7 @@ const emoji_for_teachers = new Map([
     ['Деревянченко Ю.И', '&#129299'],
     ['Авдеенко А.С', '&#129304'],
     ['Минина Н.В', '&#127982'],
+    ['Усов С.В', '&#129397;'],
 ])
 
 // Emoji
@@ -133,8 +134,8 @@ $(document).ready(function () {
                 $('title').html(title);
             }
             // ! Time
-            let start_date = new Date(2022, 1, 7);
-            let while_date = new Date(2022, 1, 7);
+            let start_date = new Date(2022, 7, 29);
+            let while_date = new Date(2022, 7, 29);
             let now_date = new Date()
             let different_date = Math.ceil((now_date - while_date) / 86400000);
             let now_week = Math.ceil(different_date / 7);
@@ -328,8 +329,8 @@ $(document).ready(function () {
                 }
             })
             // ! Time
-            let start_date = new Date(2022, 1, 7);
-            let while_date = new Date(2022, 1, 7);
+            let start_date = new Date(2022, 7, 29);
+            let while_date = new Date(2022, 7, 29);
             let now_date = new Date()
             let different_date = Math.ceil((now_date - while_date) / 86400000);
             let now_week = Math.ceil(different_date / 7);
